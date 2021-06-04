@@ -1,0 +1,15 @@
+items: []
+# items:
+#
+# - id: someone
+#   name: Some One
+#   bio: |
+#     This is information about Some One
+#   role: presenter|panelist
+#   keynote: Day 1
+#   title: "KEYNOTE: Something Important"
+#   abstract: |
+#     The talk is about this...
+#   handles:
+#     twitter: someone
+#     linkedin: some-one
