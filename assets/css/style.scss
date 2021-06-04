@@ -27,7 +27,7 @@ header h1 {
   position: absolute;
   z-index: 10001;
   width: 150px;
-  height: 150px;  
+  height: 150px;
 }
 header h1:before {
   content: "";
@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6 {
 body {
 /*#main_content {*/
   /* background-color: #a49da6; */
-  background-image: linear-gradient(to right, rgba(0,0,0, 0.8) 0 100%),url('/assets/images/banner-bg.jpg');
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.9) 0 100%),url('/assets/images/banner-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

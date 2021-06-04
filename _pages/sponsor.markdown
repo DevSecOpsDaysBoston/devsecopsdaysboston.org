@@ -8,6 +8,10 @@ permalink: /sponsor
 
 As a leading part of the security industry critical players, your financial support and direct engagement with the {{ site.event_short_title }} community exposes both you and them to your brand. An active presence at this event demonstrates your leadership in this industry to key practitioners and investors. For more information, email [{{ site.email }}](/contact)
 
+Particularly when hiring and recruiting qualified security professionals is so difficult
+ in Boston and other major cities, your support as a sponsor (especially with a premiere
+ 20min breakout session) can dramatically improve your candidacy pipeline.
+
 This year, we are targeting between 250-350 attendees. Your help to socialize the event will increase this further.
 
 Attendees of this event are typically DevOps and security practitioners in a wide variety of industries
