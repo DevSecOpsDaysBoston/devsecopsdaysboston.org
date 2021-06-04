@@ -50,7 +50,7 @@ As a single contributor, you can make a difference, and we all should. As a grou
 This event will be held online on July 26th and will be live captioned to respect accessibility for all attendees. It
  will also be accessible via mobile device and standard desktop browsers (the after-party platform
  is only for full browsers). Further logistics about day-of access will be provided
- by May 13th via email (so don't use a fake email for registration).
+ shortly before {{ site.current_event.dates }} via email (so don't use a fake email for registration).
 
 </div>
 

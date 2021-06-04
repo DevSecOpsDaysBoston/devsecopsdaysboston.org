@@ -19,7 +19,7 @@ DevSecOps Days is a global series of virtual conferences helping to educate, evo
 
 {% if site.cfp.is_open %}
 
-Our CFP for {{ site.event_short_title }} 2021 is still open until {{ site.cfp.ends_on_text }}!
+Our CFP for {{ site.event_short_title }} 2021 is still open until {{ site.cfp.close_date }}!
 
 <div class="flexbox">
   <a class="flexbox-button" href="https://www.papercall.io/devsecops-days-boston-2021">Present Something!</a>
@@ -27,7 +27,7 @@ Our CFP for {{ site.event_short_title }} 2021 is still open until {{ site.cfp.en
 
 {% else %}
 
-Our CFP for {{ site.event_short_title }} 2021 closed on {{ site.cfp.ends_on_text }}!
+Our CFP for {{ site.event_short_title }} 2021 closed on {{ site.cfp.close_date }}!
 {% if site.data.speakers.items.size < 1 %}
 We are currently in the process of reviewing these presentation submissions and will publish the speaker schedule shortly.
 
