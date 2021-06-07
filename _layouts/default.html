@@ -22,12 +22,12 @@
         <meta name="twitter:description" content="{{ site.data.day1panel.description }}">
         <meta name="twitter:image" content="{{ site.produrl }}/assets/images/speakers/socials/panel-day1.png">
       {% else %}
-        <meta name="twitter:title" content="{{ speaker.name }} at {{ site.event_short_title }} May 17-18">
+        <meta name="twitter:title" content="{{ speaker.name }} at {{ site.event_short_title }} {{ site.current_event.dates }}">
         <meta name="twitter:description" content="{{ page.title }}: {{ speaker.bio }}">
         <meta name="twitter:image" content="{{ site.produrl }}/assets/images/speakers/socials/{{ speaker.id }}.png">
       {% endif %}
     {% else %}
-        <meta name="twitter:title" content="{{ site.event_short_title }} May 17-18">
+        <meta name="twitter:title" content="{{ site.event_short_title }} {{ site.current_event.dates }}">
         <meta name="twitter:description" content="{{ site.description }}">
         <!-- <meta name="twitter:image" content="{{ site.produrl }}/assets/images/speakers/socials/everyone.png"> -->
     {% endif %}
