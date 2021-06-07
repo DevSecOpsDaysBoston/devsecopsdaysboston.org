@@ -1,7 +1,7 @@
 title: DevSecOps Days Boston
 email: organizers@devsecopsdaysboston.org
 description: >- # this means to ignore newlines until "baseurl:"
-  An onboing, online event for DevOps and Security practitioners
+  An ongoing, online event for DevOps and Security practitioners
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devsecopsdaysboston.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: devsecopsdaysboston
