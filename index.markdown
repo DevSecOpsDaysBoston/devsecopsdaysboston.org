@@ -1,5 +1,6 @@
 ---
 layout: home
+title: "{{ site.event_short_title }} {{ site.current_event.dates }}"
 ---
 
 # About the Conference
