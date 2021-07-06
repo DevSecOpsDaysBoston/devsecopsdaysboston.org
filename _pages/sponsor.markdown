@@ -21,7 +21,7 @@ Attendees of this event are typically DevOps and security practitioners in a wid
 # Sponsorship Options
 
 |                                         | [**Premiere**](#premiere-sponsorship-details)<br />(3 SPOTS LEFT) | [**Contributor**](#contributor-sponsorship-details)<br />(STILL OPEN!) |
-| Cost                                    | $7,500                                 | [$2,000 donation to approved cause/charity](#contributor-sponsorship-details) |
+| Cost                                    | $5,000                                 | [$2,000 donation to approved cause/charity](#contributor-sponsorship-details) |
 | # Conference Passes                     |  4                                     | 2           |
 | Virtual Booth                           | Booth + 20min all-attendee swarm event | Booth & organizer shout-outs  |
 | Company Logo on Website                 | ✓                                      | ✓           |

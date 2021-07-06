@@ -3,13 +3,34 @@ layout: home
 title: "{{ site.event_short_title }} {{ site.current_event.dates }}"
 ---
 
+<div style="clear:both;">
+</div>
+
+<div class="flexbox">
+
+<div markdown="1" style="flex:1;align-self:flex-start;">
+
 # About the Conference
 
-**{{ site.event_short_title }}** is a one-day conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It will be held online on July 26th 2021.
+**{{ site.event_short_title }}** is a one-day online conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It will be held online on July 26th 2021.
 
 100% of net ticket sales and contributor sponsorships will go to good causes [(read more here)](/efforts).
 
 DevSecOps Days is a global series of virtual conferences helping to educate, evolve, and explore concepts around developing security as code.
+
+</div>
+
+<div class="hide-when-vertical" style="align-self:flex-end;">
+
+  <img src="/assets/images/duck-sec.png" style="height:25em;margin-top:2em;" />
+
+</div>
+
+</div>
+
+
+<div style="clear:both;">
+</div>
 
 <div class="flexbox">
   <a class="flexbox-button" href="{{ site.registration.relative_path }}">Attend {{ site.event_short_title }}</a>
@@ -20,19 +41,23 @@ DevSecOps Days is a global series of virtual conferences helping to educate, evo
 
 {% if site.cfp.is_open %}
 
-Our CFP for {{ site.event_short_title }} 2021 is still open until {{ site.cfp.close_date }}!
+  Our CFP for {{ site.event_short_title }} 2021 is still open until {{ site.cfp.close_date }}!
 
-<div class="flexbox">
-  <a class="flexbox-button" href="https://www.papercall.io/devsecops-days-boston-2021">Present Something!</a>
-</div>
+  <div class="flexbox">
+    <a class="flexbox-button" href="https://www.papercall.io/devsecops-days-boston-2021">Present Something!</a>
+  </div>
 
 {% else %}
+  {% if site.data.speakers.items.size < 1 %}
 
-Our CFP for {{ site.event_short_title }} 2021 closed on {{ site.cfp.close_date }}!
-{% if site.data.speakers.items.size < 1 %}
-We are currently in the process of reviewing these presentation submissions and will publish the speaker schedule shortly.
+    Our CFP for {{ site.event_short_title }} 2021 closed on {{ site.cfp.close_date }}!
 
-{% endif %}
+    We are currently in the process of reviewing these presentation submissions and will publish the speaker schedule shortly.
+  {% else %}
+
+{% include speaker-thumbs.html %}
+
+  {% endif %}
 {% endif %}
 
 

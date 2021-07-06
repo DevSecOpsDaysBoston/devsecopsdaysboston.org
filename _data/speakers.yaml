@@ -1,6 +1,225 @@
-items: []
-# items:
-#
+items:
+- id: caroline-wong
+  name: Caroline Wong
+  bio: |
+    Caroline Wong is the Chief Strategy Officer at Cobalt. She has 15+ years of
+    cybersecurity leadership, including practitioner, product, and consulting roles.
+    Caroline authored the popular textbook, Security Metrics: A Beginner's Guide.
+    She teaches cybersecurity courses on LinkedIn Learning and hosts the Humans of InfoSec podcast.
+  role: presenter
+  keynote: true
+  title: "KEYNOTE: The Future of Cloud-Native Security"
+  abstract: |
+    In recent years, we have witnessed an explosive uptick in cloud-native security
+    implementations for their myriad of benefits. As modern development processes
+    speed up, organizations have recognized the urgent need for integrated security.
+
+    In this talk, Caroline will share her observations on how companies must change
+    the way they build security into their cloud-native projects, and forecast
+    what’s next for cloud-native security. She will discuss how, when it comes
+    to the future of cloud-native security, organizations must double down on
+    people and process innovation to overcome the misconceptions, education gaps
+    and common mistakes we see when it comes to the cloud.
+
+    Cloud native is here; it is scaling, and it is not going anywhere. The more
+    we can see the reality and necessity of what security must become, the better
+    we will all be in the long run.
+  handles:
+    twitter: carolinewmwong
+    linkedin: carolinewmwong
+- id: mark-peters
+  name: Mark Peters
+  bio: |
+    Dr. Mark Peters works for Novetta as Technical Lead on several DoD cyber programs
+    in San Antonio, TX.  A DevOps junkie, much of his time is spent integrating teams
+    and automating out of repetition. A cybersecurity expert, he had a full USAF career
+    and now holds multiple industry certifications including a CISSP.
+    He authored "Cashing in on Cyberpower" analyzing cyber-attacks from an economic perspective.
+    In his spare time, he reads, thinks, writes, and then (usually) speaks and holds a Judo black belt.
+    A DevOps Institute ambassador,  and US Chapter Chair,  he enjoys working with individuals across
+    the globe on unique solutions.
+  role: presenter
+  title: "Integrating DevSecOps Teams"
+  abstract: |
+    When working with DevSecOps, the biggest challenge may be how to integrate
+    security into Dev and Ops functions. Traditional teams understand development
+    and operations but bringing the department of "No" in compliance security
+    for highly-regulated industries can be more difficult. This session discusses
+    some experience about building the basic discussions into your teams when
+    integrating security practices. Starts with explaining the cyber threat landscape
+    faced by today's businesses and then expands to suggest ways to better integrate
+    your security team while facing modern challenges.
+    Uses current examples of transformation from both sides to emphasize understanding.
+    Offers a clear framework to guide the discussion between dev, sec, and ops teams
+    to build common ground and deliver value to the customer.
+  handles:
+    twitter: tinycyber
+    linkedin: tinycyber
+- id: nivedita-murthy
+  name: Nivedita Murthy
+  bio: |
+    Nivedita Murthy is a Senior Security consultant at Synopsys. She has been
+    in the AppSec field for 12 years and has been wading through the DevSecOps
+    world for past 3 years. Before diving into the emerging DevSecOps space,
+    she dabbled primarily in source code reviews, pen testing, vulnerability
+    management and information security policy implementation for Synopsys customers.
+  role: presenter
+  title: "The Vulnerability Deluge: How to Dig In"
+  abstract: |
+    DevSecOps is here to stay—the next iteration in the Agile development, rapid
+    feedback evolution we’re witnessing in software development today. Security
+    is a critical element in this equation. An element that cannot be neglected.
+
+    As we’re bearing witness to a dynamically challenging environment, and now
+    with remote work becoming a widespread and ongoing reality, heightened security
+    awareness is not only an optional course to be completed for additional credits,
+    but rather it is a non-negotiable requirement to be taken seriously. Companies
+    expect their developers to provide high-quality, secure code quickly; however,
+    with reduced development timelines and limited resources, the approach around
+    such expectations needs to evolve with the development landscape.
+
+    Development teams are looking for help in adapting to these changes. Organizations
+    need guidance in how best to check and validate secure code quickly. Organizations
+    are also looking for the most efficient and effective means to ramp up development
+    velocity as urgency in demand continues to escalate. Automation is the key.
+    But the question of ‘how’ organizations can bring that to life based on size
+    of operations, development maturity and ramping urgency  are the fundamental
+    aspects of what defines the organizational culture of DevSecOps.
+
+    Within this presentation, I will explore strategies in which organizations
+    with varying needs and goals can achieve DevSecOps successfully. While sometimes
+    organizational expectations exceed what is currently available in the market,
+    I will also be sharing real-world examples of how organizational expectations
+    were met with out-of-the-box solutions based on my first-hand experience with
+    customers. I will also share common implementation pitfalls that organizations
+    often encounter at the beginning of their DevSecOps journey.
+
+    While I do intent to discuss specific tooling solutions within this presentation,
+    I will not be endorsing any specifically. Rather, this will be an unbiased
+    examination of various technologies and the value they may offer when implementing
+    a DevSecOps approach.
+  handles:
+    twitter: timonpumba
+    linkedin: niveditamurthy
+- id: rob-cuddy
+  name: Rob Cuddy
+  bio: |
+    Rob is currently a Global Application Security Evangelist for HCL providing
+    thought leadership for application security, DevOps and DevSecOps initiatives,
+     and is one of the hosts of the Application Paranoia podcast.  Prior to this role,
+     Rob was with IBM for 14 years with roles in Application Security Evangelism,
+     Worldwide Sales Enablement, Tiger Teams and Field Services for the Management
+     and Platform Segment offerings in IBM Cloud.  Rob has worked with clients all
+     over the world to help address their challenges in ways that bring a positive
+     impact to the business bottom line.  Rob has spoken at numerous events and conferences,
+     including All Day DevOps, Equilibrium,  Agile + DevOps Virtual, Evanta CISO Summits,
+     THINK, InterConnect, DevloperConnect, IBM Top Guns and many customer events.
+     Prior to IBM, Rob spent 13 years with 5 different companies working as a configuration
+     management specialist with an emphasis on Rational tooling. Rob graduated from
+     the University of Southern California with a degree in Aerospace Engineering
+     and is an avid fan of college football.  When not at work, Rob enjoys spending
+     time with his family, serving with his church, running and cycling. You can
+     connect with Rob through the Application Paranoid podcast, via LinkedIn, Facebook
+     and Instagram but the best way is by joining the “Robservatory” on twitter
+     using the handle @Robservatory.
+  role: presenter
+  title: "Raiders of the Lost AppSec"
+  abstract: |
+    Remember the opening scene from Raiders of the Lost Ark?  Or finding the Temple of Doom?
+    Finding the grail in the Last Crusade?  There are some fun principles and parallels that a
+    pply to application security in those movies.  So come take a look at what
+    Indiana Jones can teach us about appsec.
+
+    This will be a fun discussion using classic Indiana Jones movie segments and
+    correlating to application security needs and practices. The main idea showing
+    how application security plays a big role in building that trust and confidence
+    for your clients.
+
+    We invite you to join us on this quest to drive trust and confidence for those
+    customers that are looking at how you handle their data and the methods you
+    use to protect it, because they expect you to handle it responsibly.
+  handles:
+    twitter: Robservatory
+    linkedin: rcuddy
+- id: prima-virani
+  name: Prima Virani
+  bio: |
+    Prima is a seasoned Security professional who has worked in a variety of
+    industries such as Consumer Tech, Oil & Gas, Media, and Fin-tech. She is a
+    Senior Security Engineer on the SIRT team at Segment where she enjoys
+    creating automation tooling for Incident Response and occasionally dabbles
+    in Security DevOps. She loves sharing her experiences with the industry and
+    has spoken at many meetups and conferences globally including, but not
+    limited to, Agile India 2020, MacDevOpsCon Vancouver 2019, Grace Hopper
+    Conference 2017.
+  role: presenter
+  title: "How We Automated Ourselves Out of On-Call Burnout...and you can too!"
+  abstract: |
+    The repetitive nature of response tasks is one of the biggest causes of
+    fatigue and burnout among Incident Responders. Anyone who’s been on-call on
+    a Security team can remember how many hours they’ve spent opening the same
+    tabs, clicking the same buttons, copy+pasting the same indicator data, and
+    performing other similar tasks repeatedly. Imagine if that time was spent
+    building stronger detection capabilities instead, or even better, on taking
+    a break from the screen and going out for a walk!
+
+    While this can be solved by outsourcing the frontline response capabilities,
+    it can be costly in terms of time and money to identify a proficient vendor,
+    obtain approvals, finalize the contract, as well as the financial cost of
+    the service...
+
+    What if I told you that at Segment we built this capability with an
+    open-source tool in the same amount of time it would take a team to do all
+    of the above with the time and resources of a single full-time security
+    engineer? Welcome to the story of our Response Automation journey!
+  handles:
+    twitter: secnerdette
+    linkedin: primavirani
+- id: vasant-chinnipilli
+  name: Vasant Chinnipilli
+  bio: |
+    **Vasant** is a security enthusiast and speaker, currently working as a
+    *Security Architect and DevSecOps Practitioner.*
+
+    His technical abilities span a wide range of technologies across various
+    domains of information security including *cloud and  container security
+    and penetration testing. He is keen about cloud and cloud native security,
+    devsecops and security automation.*
+
+    He is passionate about bridging the gap between the **security and DevOps**
+    teams through finding effective ways to integrate security in the devops
+    processes and allow security tools to flow freely through DevOps pipelines.
+
+    He is also the developer of **Kubestriker**, an open source, platform
+    agnostic security auditing tool, specially designed to secure the
+    cloudnative and tackle Kuberenetes cluster security issues. This tool has
+    been showcased in various conferences including Blackhat, Devseccon and
+    DefCon.
+
+  role: presenter
+  title: "Rooting out security risks lurking in your kubernetes ecosystem"
+  abstract: |
+    The goal of this talk is to broaden the awareness of the how and why
+    Kubernetes attacks and escapes work and measures to secure the clusters.
+
+    - Starting from a brief tour of the Kubernetes ecosystem
+    - covering in-depth defense mechanisms for multiple critical resources
+    - Then looking at cloud Native threat modelling scenarios using the tool(demo)
+    - Demo on a vulnerable and secured infrastructure with the tool
+    - Demo on continuous monitoring and alerting techniques
+    - Sharing the slides, playground setup and the tool with the audience
+    - Question and Answers
+
+    Takeaway
+
+    - Take home advanced actionable techniques to threat model and secure your Kubernetes clusters.
+    - A commercial grade open source tool for scanning and alerting for Kubernetes security issues
+    - A self hosted production grade Kubernetes playground with pure Kubernetes misconfigurations
+    - A digital guide of the content presented
+
+  handles:
+    twitter: cloudsecguy
+    linkedin: vasantreddy
 # - id: someone
 #   name: Some One
 #   bio: |
