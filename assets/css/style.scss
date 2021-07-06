@@ -95,3 +95,13 @@ a, .flexbox-button, .flexbox-button a {
   padding: 5px 3px 2px 5px;
   vertical-align: text-bottom;
 }
+
+.hide-when-vertical {
+  display: none;
+}
+
+@media screen and (min-width: $on-medium) {
+  .hide-when-vertical {
+    display: inline;
+  }
+}

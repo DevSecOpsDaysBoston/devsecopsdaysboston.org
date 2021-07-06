@@ -21,7 +21,7 @@ registration:
   relative_path: "/signup"
 
 cfp:
-  is_open: true
+  is_open: FALSE
   open_date: "June 4th"
   close_date: "June 28th"
   direct_link: "https://www.papercall.io/devsecops-days-boston-2021"
@@ -40,10 +40,8 @@ header_pages:
     url: /about
   - title: "-signup"
     url: /signup
-  - title: "-cfp"
-    url: https://www.papercall.io/devsecops-days-boston-2021
-  # - title: "-agenda"
-  #   url: /agenda
+  - title: "-agenda"
+    url: /agenda
   - title: "-code-of-conduct"
     url: /code-of-conduct
   - title: "-sponsor"
