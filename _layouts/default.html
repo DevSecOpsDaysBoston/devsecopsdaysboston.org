@@ -29,7 +29,7 @@
     {% else %}
         <meta name="twitter:title" content="{{ site.event_short_title }} {{ site.current_event.dates }}">
         <meta name="twitter:description" content="{{ site.description }}">
-        <!-- <meta name="twitter:image" content="{{ site.produrl }}/assets/images/speakers/socials/everyone.png"> -->
+        <meta name="twitter:image" content="{{ site.produrl }}/assets/images/speakers/socials/everyone.png">
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
@@ -91,8 +91,8 @@
       </div>
       {% if is_bannerable_page == true %}
       <div style="visibility:hidden;display:none;">
-        <!-- <img id="everyone-thumb" src="/assets/images/speakers/socials/everyone.png"
-              style="width:1200px;border-radius:2em;" /> -->
+        <img id="everyone-thumb" src="/assets/images/speakers/socials/everyone.png"
+              style="width:1200px;border-radius:2em;" />
       </div>
       {% endif %}
     </header>
