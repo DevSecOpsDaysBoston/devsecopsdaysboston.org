@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6 {
 .site-header {
   background-color: $highlightTextColor;
 }
+.site-header > .container {
+  max-width: 98%;
+}
 
 body {
 /*#main_content {*/
@@ -78,6 +81,11 @@ a, .flexbox-button, .flexbox-button a {
   margin: 1em;
 }
 .sponsor-logo-contributor {
+  min-width: 100px;
+  max-width: 200px;
+  margin: 1em;
+}
+.sponsor-logo-community {
   min-width: 100px;
   max-width: 200px;
   margin: 1em;

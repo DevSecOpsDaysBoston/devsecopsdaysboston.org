@@ -1,8 +1,19 @@
-items: []
-# items:
-# - id: company-id
-#   name: company name
-#   level: premiere
-#   logo: company.png
-#   link: /sponsors/company
-#   external_link: https://company.com
+items:
+- id: sonatype
+  name: Sonatype
+  level: community
+  logo: sonatype.png
+  link: /sponsors/sonatype
+  external_link: https://www.sonatype.com
+- id: cmu-sei
+  name: Carnegie Mellon University - Software Engineering Institute
+  level: community
+  logo: cmu-sei.png
+  link: /sponsors/cmu-sei
+  external_link: "https://www.sei.cmu.edu/research-capabilities/all-work/display.cfm?customel_datapageid_4050=41084"
+- id: kessel-run
+  name: Kessel Run
+  level: community
+  logo: kessel-run.png
+  link: /sponsors/kessel-run
+  external_link: https://kesselrun.af.mil/
