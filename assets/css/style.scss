@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6 {
 .site-header {
   background-color: $highlightTextColor;
 }
+.site-header > .container {
+  max-width: 98%;
+}
 
 body {
 /*#main_content {*/
