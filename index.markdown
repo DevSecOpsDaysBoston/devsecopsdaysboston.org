@@ -93,3 +93,18 @@ If you would also like to sponsor in this way, please [contact the organizers](/
 </div>
 
 {% endif %}
+
+{% assign items = site.data.sponsors.items | where_exp:"item", "item.level == 'community'" %}
+{% if items.size > 0 %}
+
+# Community Sponsors
+
+These sponsors help make all DevSecOps Days events possible!
+
+<div class="flexbox">
+  {% for item in items %}
+    <a href="{{ item.link }}"><img class="sponsor-logo-{{ item.level }}" src="/assets/images/sponsors/{{ item.logo }}" title="{{ item.name }}"></a>
+  {% endfor %}
+</div>
+
+{% endif %}

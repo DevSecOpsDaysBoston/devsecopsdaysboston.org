@@ -21,17 +21,17 @@ tr td:first-of-type { white-space: nowrap; }
 
 | Time | Session |
 | 11:00 AM | Welcome and Intros |
-| 11:15 AM | Keynote: **Caroline Wong**<br />The Future of Cloud-Native Security  |
-| 12:00 PM | Rob Cuddy: Raiders of the Lost AppSec |
+| 11:15 AM | [Keynote: **Caroline Wong**<br />The Future of Cloud-Native Security](/speakers/caroline-wong)  |
+| 12:00 PM | [Rob Cuddy: Raiders of the Lost AppSec](/speakers/rob-cuddy) |
 | 12:25 PM | "Swarm Breakout" format intros |
 | 12:30 PM | Sponsor swarm 1   |
-| 12:50 PM | Prima Virani: How We Automated Ourselves Out of On-Call Burnout… and you can too! |
-| 1:15 PM | Vasant Chinnipilli: Rooting out security risks lurking in your kubernetes ecosystem |
+| 12:50 PM | [Prima Virani: How We Automated Ourselves Out of On-Call Burnout… and you can too!](/speakers/prima-virani) |
+| 1:15 PM | [Vasant Chinnipilli: Rooting out security risks lurking in your kubernetes ecosystem](/speakers/vasant-chinnipilli) |
 | 1:40 PM | Stretch break; discussions check-in (screen share) |
-| 1:45 PM | Nivedita Murthy: The Vulnerability Deluge: How to Dig In |
+| 1:45 PM | [Nivedita Murthy: The Vulnerability Deluge: How to Dig In](/speakers/nivedita-murthy) |
 | 2:10 PM | Sponsor swarm 2 |
 | 2:30 PM | Stretch break; additional Sponsr shout-outs (3 slides) |
-| 2:35 PM | Mark Peters - Integrating DevSecOps Teams |
+| 2:35 PM | [Mark Peters - Integrating DevSecOps Teams](/speakers/mark-peters) |
 | 3:00 PM | Secret Speaker - Presy |
 | 3:25 PM | Panel Discussion - Unanticipated Dependencies |
 | 4:00 PM | Wrap - All Organizers |
