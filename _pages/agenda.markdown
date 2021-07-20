@@ -9,6 +9,7 @@ permalink: /agenda
   <a class="flexbox-button" href="/sponsor">Sponsor this Event</a>
 </div>
 
+# July 26th Live Stream Agenda
 (Times are in Eastern / Atlantic EST time)
 
 <style type="text/css">
@@ -32,9 +33,26 @@ tr td:first-of-type { white-space: nowrap; }
 | 2:10 PM | Sponsor swarm 2 |
 | 2:30 PM | Stretch break; additional Sponsr shout-outs (3 slides) |
 | 2:35 PM | [Mark Peters - Integrating DevSecOps Teams](/speakers/mark-peters) |
-| 3:00 PM | Secret Speaker - Presy |
-| 3:25 PM | Panel Discussion - Unanticipated Dependencies |
+| 3:00 PM | [Ken Kato: DevOps in #CivicTech](/speakers/ken-kato) |
+| 3:25 PM | Panel Discussion - Growing and Sustaining Continuous Security Practices |
 | 4:00 PM | Wrap - All Organizers |
+
+{% assign additionals = site.data.speakers.items | where_exp:"item", "item.additional" %}
+{% if additionals.size > 0 %}
+
+# Async Extras
+
+<div class="flexbox" markdown=1>
+
+  {% for person in additionals %}
+    {% assign roledir = "speakers" %}
+    {% if person.role == "panelist" %}{% assign roledir = "panelists" %}{% endif %}
+| <a href="/{{ roledir }}/{{ person.id }}">{{ person.name }}<br />{{ person.title }}</a> |
+  {% endfor %}
+</div>
+<div style="clear:both;width:100%;"></div>
+{% endif %}
+
 
 </div>
 
@@ -42,6 +60,8 @@ tr td:first-of-type { white-space: nowrap; }
   <img src="/assets/images/duck-dev.png" align="right" style="height:20em;margin-top:2em;" />
   <br />
   <img src="/assets/images/duck-ops.png" align="right" style="height:20em;margin-top:2em;" />
+  <br />
+  <img src="/assets/images/duck-sec.png" align="right" style="height:20em;margin-top:2em;" />
 </div>
 
 </div>
