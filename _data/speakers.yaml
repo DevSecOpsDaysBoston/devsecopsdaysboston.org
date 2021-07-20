@@ -175,6 +175,7 @@ items:
   handles:
     twitter: secnerdette
     linkedin: primavirani
+
 - id: vasant-chinnipilli
   name: Vasant Chinnipilli
   bio: |
@@ -220,6 +221,128 @@ items:
   handles:
     twitter: cloudsecguy
     linkedin: vasantreddy
+
+- id: ken-kato
+  name: Ken Kato
+  bio: |
+    Ken Kato is an entrepreneur, platform/cloud architect, change agent, and innovator;
+    with a wide range of experience across highly regulated industries from finance,
+    to healthcare, to defense. Most recently as a founding member of Kessel Run,
+    Ken disrupted USAF’s technology. Working alongside industry innovators Pivotal
+    to provide a cloud platform and help begin their cloud native journey.
+
+    Spending a career working at the bleeding edge; Ken continues to iterate on
+    concepts with a focus lately on IoT sensor data aggregation and predictive analysis,
+    security across software and platform lifecycle, edge computing at the extremes
+    of information availability. Evincing a passion to keep pursuing ideas from
+    when the ideas are theory before technology is available until they are matured
+    as an innovation.
+
+    Technology alone can’t solve complex problems and with that in mind, Ken thinks
+    of what the future landscape may look like. Between experience and data, Ken
+    predicts how decisions made today will be survivable for years ahead and strives
+    to develop a sustainable strategy for organizational growth.
+
+    Today Ken serves as a White House Presidential Innovation Fellow where he launched
+    the cloud-native platform, Black Pearl, within the first year. Since then he has
+    been working with many federal agencies in defense, law enforcement, healthcare,
+    and finance to help move the needle on digital innovation.
+
+  role: presenter
+  title: "DevOps in #CivicTech"
+  abstract: |
+    This talk will center around how the US Government has been on a DevOps journey
+    and where various agencies are from civilian agencies to the defense department
+    and all the way to the White House!
+
+    My name is Ken Kato and I’m a White House Presidential Innovation Fellow or
+    PIF since the government loves acronyms. As a PIF we’re detailed to a specific
+    agency, in my case I’m detailed to the Department of the Navy. Previous to being
+    a PIF, I helped launch USAF Kessel Run right here in Boston. I went through my
+    own DevOps journey once upon a time, circa 2006 when I learned puppet as a
+    means to open up more time for me and my team to do valuable things over
+    hand-holding every darn switch and router. Since then I’ve continued half in
+    ops and half in dev into cloudy things. Today I apply my experience to bettering
+    our government as a PIF. I have a unique opportunity to speak truth to power,
+    and just #GetShipDone. One of the things I accomplished year one was launching
+    a cloud-native platform for the Navy and like to talk to you all about how we got there.
+
+  handles:
+    twitter: askKenKato
+    linkedin: devsecops-kkato
+
+- id: riyaz-walikar
+  name: Riyaz Walikar
+  bio: |
+    Riyaz is the Co-Founder/Chief Hacker/CTO at Kloudle Inc, a Cloud Native Security Monitoring SaaS company. At Kloudle, his offensive security skills are used to identify and mimic attackers attempting to break-in to various cloud configurations to enhance Kloudle's monitoring capabilities.
+
+    He is also an active security evangelist and researcher with over a decade of experience in the cyber security industry. His curiosity has led him to work in various aspects of Cloud Security, Kubernetes and Container Security, Web Application and Mobile Security, Network and System Penetration Testing, Wireless Network Security Assessment, Dynamic Malware Analysis, Threat Modelling, Windows Forensics, Security Code Review, Vulnerability Research, Exploit Development and Reverse Engineering.
+
+    He loves speaking at various conferences and community meetups and has been a speaker/trainer at numerous conferences including BlackHat, DefCon, OWASP AppSec and nullcon. He is also one of the chapter leaders of OWASP Bangalore and in the past has led community efforts at null (India's largest open security community) as well.
+
+    When he is not writing/breaking code, you can find him dabbling in photography, stargazing, playing football, reading or fishing.
+
+    ## Online
+
+    | Account | Details |
+    | -- | -- |
+    | Twitter | [@riyazwalikar](https://twitter.com/riyazwalikar) |
+    | Company | [Kloudle Inc](https://kloudle.com) |
+    | LinkedIn | [Riyaz Walikar](https://in.linkedin.com/in/riyazw) |
+    | Blog | [Blog](https://ibreak.software) |
+    | Speakerdeck | [https://speakerdeck.com/riyazwalikar/](https://speakerdeck.com/riyazwalikar/) |
+  role: presenter
+  additional: true
+  title: "Server Side Request Forgery in AWS and why only IMDSv2 is not enough"
+  abstract: |
+    One of the defense in depth solutions against SSRF on applications running
+    on the AWS cloud is to upgrade to IMDSv2. The idea is that if a token is
+    required as part of the header, an attacker cannot invoke the instance metadata
+    endpoint using the SSRF. However, there are caveats.
+
+    In this talk we will see what you can achieve with SSRF attacks, how IMDSv2
+    prevents vanilla SSRFs from accessing the instance metadata and what scenarios
+    exist in the real world where IMDSv2 can attacked to extract AWS EC2 metadata
+    including keys to the kingdom (fancy phrase for overly privileged IAM instance
+    role credentials) to compromise the entire AWS cloud platform on which the app
+    or service is running.
+
+    We will look at a popular npm package that can cause your environment to become
+    vulnerable when it's deployed. We will end the talk with some tips on how we could
+    still be safe while not trusting the protection that IMDSv2 offers.
+  handles:
+    twitter: riyazwalikar
+    linkedin: riyazw
+
+- id: andi-grabner
+  name: Andreas Grabner
+  bio: |
+    Andreas Grabner has 20+ years of experience as a software developer, tester
+    and architect and is an advocate for high-performing cloud scale applications.
+    He is a contributor to the open source project Keptn, a frequent speaker at
+    conferences & meetups and regularly publishes articles on medium and
+    blog.dynatrace.com. You can follow him on Twitter: @grabnerandi or find him
+    on the salsa dancefloors of the world.
+  role: presenter
+  additional: true
+  title: "Adding Security to your SLO-based Release Validation with Keptn"
+  abstract: |
+    Automatic Release Validation, aka Quality Gates, is not a new concept but
+    often only covers functional or performance metrics. Keptn’s open SLO-based
+    evaluation allows DevSecOps to have their favorite security tool report SLOs
+    such as number of detected vulnerabilities as part of delivery automation.
+
+    This session will focus on the concept of SLO-based release validation with
+    the CNCF project Keptn. Attendees will learn how they can bring in their own
+    security tool and connect it to Keptn via an SLI-Provider. Examples would be
+    open source tools such as Falco or commercial security tools of choice.
+
+    The goal is to educate DevSecOps on the opportunity to automatically detect
+    security related problems as part of delivery automation.
+  handles:
+    twitter: grabnerandi
+    linkedin: grabnerandi
+
 # - id: someone
 #   name: Some One
 #   bio: |
