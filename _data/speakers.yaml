@@ -343,6 +343,34 @@ items:
     twitter: grabnerandi
     linkedin: grabnerandi
 
+- id: michael-krieger
+  name: Michael Krieger
+  bio: |
+    After 11 years in applied research and having gained a PhD degree with a focus
+    on online privacy, I joined Dynatrace's product security team in 2017. At
+    Dynatrace, I am part of the team responsible for security controls in the
+    Software Development Life Cycle (SDLC), and advocating visibility, automation,
+    and scaling of security controls with the vision of continuous zero touch security.
+  role: presenter
+  additional: true
+  title: "Scaling Security Controls with SLIM – Stakeholder Life Cycle Model"
+  abstract: |
+    DevSecOps often implements shift left by automating security checks into the
+    delivery pipeline. As security threats are not constrained to CI/CD we introduce
+    SLIM. SLIM advocates for zero touch continuous security, enabling stakeholders
+    to manage security for the entire lifecycle of their assets.
+
+    This session is based on a research paper currently under review titled
+    “SLIM – Efficiently Scaling Security Controls using a Stakeholder Life Cycle Model”.
+    SLIM discusses a new approach to systematically identify barriers to automation
+    and scaling of security controls, increase coverage and with that reduce MTTD
+    (Mean Time to Detect) and MTTR (Mean Time to Report). SLIM advocates for automated
+    lifecycle management of assets (artifacts, configurations, …) where stakeholders
+    can onboard and offboard their assets to a continuous zero touch security process
+    without having to learn or deal with individual security tools on a day2day basis.
+  handles:
+    linkedin: m-t-krieger
+
 # - id: someone
 #   name: Some One
 #   bio: |
