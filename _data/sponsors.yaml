@@ -1,4 +1,16 @@
 items:
+- id: secure-state
+  name: Secure State
+  level: premiere
+  logo: secure-state.png
+  link: /sponsors/secure-state
+  external_link: https://www.cloudhealthtech.com/products/cloudhealth-secure-state
+- id: synopsys
+  name: Synopsys Inc
+  level: contributor
+  logo: synopsys.png
+  link: /sponsors/synopsys
+  external_link: https://www.cloudhealthtech.com/products/cloudhealth-secure-state
 - id: sonatype
   name: Sonatype
   level: community
