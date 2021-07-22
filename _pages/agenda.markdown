@@ -33,7 +33,7 @@ tr td:first-of-type { white-space: nowrap; }
 | 2:30 PM | Stretch break; additional Sponsr shout-outs (3 slides) |
 | 2:35 PM | [Mark Peters - Integrating DevSecOps Teams](/speakers/mark-peters) |
 | 3:00 PM | [Ken Kato: DevOps in #CivicTech](/speakers/ken-kato) |
-| 3:25 PM | Panel Discussion - Growing and Sustaining Continuous Security Practices |
+| 3:25 PM | [Panel Discussion - Growing and Sustaining Continuous Security Practices](/panel) |
 | 4:00 PM | Wrap - All Organizers |
 
 {% assign additionals = site.data.speakers.items | where_exp:"item", "item.additional" %}
