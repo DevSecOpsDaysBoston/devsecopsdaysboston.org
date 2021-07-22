@@ -371,6 +371,23 @@ items:
   handles:
     linkedin: m-t-krieger
 
+- id: vishal-asthana
+  name: Vishal Asthana
+  role: panelist
+  panel: true
+- id: sarah-baker
+  name: Sarah Baker
+  role: panelist
+  panel: true
+- id: chris-hughes
+  name: Chris Hughes
+  role: panelist
+  panel: true
+- id: hasan-yasar
+  name: Hasan Yasar
+  role: panelist
+  panel: true
+
 # - id: someone
 #   name: Some One
 #   bio: |
