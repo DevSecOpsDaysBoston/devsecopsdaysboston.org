@@ -10,9 +10,18 @@ title: "{{ site.event_short_title }} {{ site.current_event.dates }}"
 
 <div markdown="1" style="flex:1;align-self:flex-start;">
 
+# It's a Wrap!
+
+To access all the videos:
+
+<ol type="a">
+  <li><strong>If you did not already</strong> <a href="/signup">signup, please do so here</a>.</li>
+  <li>If you already signed up, please check your email for a Hub invite from hey@vito.community</li>
+</ol>
+
 # About the Conference
 
-**{{ site.event_short_title }}** is a one-day online conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It will be held online on July 26th 2021.
+**{{ site.event_short_title }}** is an ongoing online conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It was held on July 26th 2021 but the videos are all available and monthly meetups will follow.
 
 100% of net ticket sales and contributor sponsorships will go to good causes [(read more here)](/efforts).
 
@@ -33,7 +42,7 @@ DevSecOps Days is a global series of virtual conferences helping to educate, evo
 </div>
 
 <div class="flexbox">
-  <a class="flexbox-button" href="{{ site.registration.relative_path }}">Attend {{ site.event_short_title }}</a>
+  <a class="flexbox-button" href="{{ site.registration.relative_path }}">Watch {{ site.event_short_title }}</a>
   <a class="flexbox-button" href="/sponsor">Sponsor this Event</a>
 </div>
 

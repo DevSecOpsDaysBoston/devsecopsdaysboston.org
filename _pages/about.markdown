@@ -9,7 +9,7 @@ permalink: /about
 
 # What is {{ site.event_short_title }}?
 
-**{{ site.event_short_title }}** is a one-day online conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It will be held online on July 26th 2021.
+**{{ site.event_short_title }}** is an ongoing online conference focused on empowering developers, security, and operations practitioners to adopt secure coding and delivery practices, improving how technology and people systems do these things together. It was held on July 26th 2021 but the videos are all available and monthly meetups will follow.
 
 100% of net ticket sales and contributor sponsorships will go to good causes [(read more here)](/efforts).
 

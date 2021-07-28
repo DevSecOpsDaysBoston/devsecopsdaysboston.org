@@ -10,7 +10,7 @@ permalink: /panel
 </p>
 <div style="flex:1;align-self:flex-start;text-align:center;">
 <div class="flexbox">
-  <a class="flexbox-button" href="{{ site.registration_link }}" style="font-size:0.9em;">Attend this Session</a>
+  <a class="flexbox-button" href="{{ site.registration_link }}" style="font-size:0.9em;">Watch this Session</a>
 </div>
   <h3>Panelists</h3>
   <div class="flexbox" style="">
