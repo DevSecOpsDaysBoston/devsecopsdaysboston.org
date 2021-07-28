@@ -38,9 +38,9 @@ include:
 header_pages:
   - title: "-about"
     url: /about
-  - title: "-signup"
+  - title: "-access"
     url: /signup
-  - title: "-agenda"
+  - title: "-videos"
     url: /agenda
   - title: "-code-of-conduct"
     url: /code-of-conduct
